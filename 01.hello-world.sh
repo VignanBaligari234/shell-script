@@ -2,8 +2,8 @@
 
 echo "hello, world!"
 
-PERSON1=Ramesh
-PERSON2=Suresh
+PERSON1=Rohit
+PERSON2=Sachin
 
 echo "$PERSON1: Hello $PERSON2!"
 echo "$PERSON2: hello $PERSON1!"
