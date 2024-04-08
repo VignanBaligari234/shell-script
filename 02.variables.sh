@@ -2,4 +2,4 @@
 
 DATE=$(date)
 
-echo "while executing this script the timestamp is : $DATE"
+echo "hello! this script is executed at the timestamp: $DATE"
