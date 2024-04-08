@@ -2,7 +2,10 @@
 
 echo "hello, world!"
 
-echo "Ramesh: Hello Suresh!"
-echo "Suresh: hello Ramesh!"
-echo "Ramesh: good morning!"
-echo "Suresh: good morning thank you!"
+PERSON1=Ramesh
+PERSON2=Suresh
+
+echo "$PERSON1: Hello $PERSON2!"
+echo "$PERSON2: hello $PERSON1!"
+echo "$PERSON1: good morning!"
+echo "$PERSON2: good morning thank you!"
