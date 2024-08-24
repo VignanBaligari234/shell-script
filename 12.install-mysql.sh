@@ -4,14 +4,18 @@ DATE=$(date +%F)
 SCRIPT_NAME=$0
 LOGFILE=/tmp/$SCRIPT_NAME-$DATE.log
 
+R="\e[31m"
+G="\e[32m"
+N="\e[0m"
+
 USER=$(id -u)
 VALIDATE(){
     if [ $1 -ne 0 ]
     then 
-        echo "$2 ...Failure"
+        echo -e "$2 ...$R Failure $N"
         exit 1
     else
-        echo "$2 ... success"
+        echo -e "$2 ...$G Success $N"
     fi
 }
 if [ $USER -ne 0 ]
